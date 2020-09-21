@@ -21,6 +21,11 @@ class Html
 			array(
 				'name' => 'Emails',
 				'path' => '/mail.php'
+			),
+			array(
+				'name' => 'Mailhog',
+				'path' => 'http://localhost:8025',
+                'target' => '_blank'
 			)
 		),
 		array(
